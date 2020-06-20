@@ -24,10 +24,10 @@ else
 <body>
     <section class="congratulations">
         <h1>Test PHP APP</h1>
-        <p>Your AWS Elastic Beanstalk <em>PHP</em> application is now running on your own dedicated environment in the AWS&nbsp;Cloud</p>
-        <p>You are running PHP version <?= phpversion() ?></p>
+        <p>This simple php application was deployed for security testing purposes only.</p>
+        <p>Current PHP version on test instance <?= phpversion() ?></p>
 	<p>Test instance: <?= gethostname() ?></p>
-	<p>This is v1 of the app</p>
+	<p>This is v1 of the test app</p>
     </section>
 
     <section class="instructions">
