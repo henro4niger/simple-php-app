@@ -26,6 +26,7 @@ else
         <h1>Test PHP APP</h1>
         <p>Your AWS Elastic Beanstalk <em>PHP</em> application is now running on your own dedicated environment in the AWS&nbsp;Cloud</p>
         <p>You are running PHP version <?= phpversion() ?></p>
+	<p>Test instance: <?= gethostname() ?></p>
 	<p>This is v1 of the app</p>
     </section>
 
